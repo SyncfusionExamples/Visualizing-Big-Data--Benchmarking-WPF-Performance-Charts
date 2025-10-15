@@ -14,7 +14,7 @@ For desktop applications built with WPF, displaying and interacting with this da
 This benchmarking application offers a detailed look into the performance capabilities of Syncfusion WPF Charts when handling a substantial dataset of one million data points. It highlights how specialized series types are essential for maintaining responsiveness and efficiency in data-intensive applications.
 
 Here’s a quick preview of the output of our benchmarking application:
-[image]
+<img width="1919" height="989" alt="output-bench" src="https://github.com/user-attachments/assets/7e0b1092-2835-4d88-8c50-d1a90e68f32c" />
 
 ## Troubleshooting
 
