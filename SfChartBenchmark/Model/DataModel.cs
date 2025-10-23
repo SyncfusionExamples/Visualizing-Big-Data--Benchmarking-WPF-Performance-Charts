@@ -1,4 +1,4 @@
-﻿namespace WPFSfChartsBench
+﻿namespace SfChartBenchmark
 {
     public class DataModel
     {

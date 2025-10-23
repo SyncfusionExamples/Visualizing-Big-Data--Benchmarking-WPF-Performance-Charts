@@ -1,11 +1,7 @@
-﻿using Syncfusion.UI.Xaml.Charts;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Windows;
-using System.Windows.Controls;
+﻿using System.Windows;
 using System.Windows.Media;
 
-namespace WPFSfChartsBench
+namespace SfChartBenchmark
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -1,8 +1,6 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 
-namespace WPFSfChartsBench
+namespace SfChartBenchmark
 {
     /// <summary>
     /// Interaction logic for App.xaml

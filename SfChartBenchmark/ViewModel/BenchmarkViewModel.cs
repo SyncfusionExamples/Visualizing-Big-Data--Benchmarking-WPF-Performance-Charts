@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace WPFSfChartsBench
+namespace SfChartBenchmark
 {
     public class BenchmarkViewModel : INotifyPropertyChanged
     {
@@ -188,11 +188,11 @@ namespace WPFSfChartsBench
             bool enableAntiAliasing = isBitmap && EnableAA;
 
             ChartSeriesCollection seriesCollection = CreateSeries(isBitmap, enableAntiAliasing);
-
-            // Scenario 1: Load time precisely measured from assignment to fully rendered
+ 
             long memBefore = GC.GetTotalMemory(true);
             Chart.Series.Clear();
-            
+
+            // Scenario 1: Measure load time
             var stopWatch = Stopwatch.StartNew();            
             
             Chart.Series = seriesCollection; 

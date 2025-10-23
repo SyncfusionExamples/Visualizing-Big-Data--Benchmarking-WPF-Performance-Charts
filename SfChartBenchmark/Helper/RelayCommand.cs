@@ -1,6 +1,6 @@
 ﻿using System.Windows.Input;
 
-namespace WPFSfChartsBench
+namespace SfChartBenchmark
 {
     public sealed class RelayCommand : ICommand
     {
