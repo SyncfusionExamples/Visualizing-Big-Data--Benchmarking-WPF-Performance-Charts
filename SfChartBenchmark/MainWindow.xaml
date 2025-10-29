@@ -232,7 +232,11 @@
                                         <chart:SfLineSparkline Grid.Column="1"
                                                                ItemsSource="{Binding UIRespHistory}"
                                                                Interior="#FF8922" StrokeThickness="2"
-                                                               Height="44" HorizontalAlignment="Stretch"/>
+                                                               Height="44" HorizontalAlignment="Stretch">
+                                            <chart:SfLineSparkline.LayoutTransform>
+                                                <ScaleTransform ScaleY="-1" />
+                                            </chart:SfLineSparkline.LayoutTransform>
+                                        </chart:SfLineSparkline>
                                     </Grid>
                                 </Border>
                             </StackPanel>

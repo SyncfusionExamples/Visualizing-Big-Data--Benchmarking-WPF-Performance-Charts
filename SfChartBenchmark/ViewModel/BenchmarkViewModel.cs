@@ -28,7 +28,13 @@ namespace SfChartBenchmark
         public string SelectedSeriesType
         {
             get => _selectedSeriesType;
-            set { _selectedSeriesType = value; OnPropertyChanged(); }
+            set 
+            { 
+                _selectedSeriesType = value; OnPropertyChanged();
+
+                if (_selectedSeriesType == "FastLineSeries")
+                    EnableAA = false;
+            }
         }
 
         private bool _enableAA;

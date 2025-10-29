@@ -22,7 +22,7 @@ Here’s a quick preview of the output of our benchmarking application:
 
 If you are facing a "Path too long" exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-For a detailed step-by-step guide with relevant code snippets, refer to the blog post [Benchmarking WPF Fast Charts: Unveiling High Performance with 1 Million Data Points]().
+For a detailed step-by-step guide with relevant code snippets, refer to the blog post [Benchmarking WPF Fast Charts: Unveiling High Performance with 1 Million Data Points](https://www.syncfusion.com/blogs/post/wpf-chart-performance-benchmarking).
 
 
 
